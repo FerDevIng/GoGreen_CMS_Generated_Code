@@ -43,11 +43,13 @@ body {
 .top-bar {
   left: 0;
   top: 0;
+  pointer-events: none;
 }
 
 .side-bar {
   left: 0;
   top: 0;
+  pointer-events: none;
 }
 
 .stat-card-posts {
@@ -67,6 +69,8 @@ body {
 
 .screen-link {
   display: block;
+  z-index: 2;
+  padding: 4px 0;
   color: #000000;
   text-decoration: none;
 }

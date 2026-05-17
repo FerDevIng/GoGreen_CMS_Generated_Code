@@ -45,21 +45,25 @@ body {
 .login-panel {
   left: 400px;
   top: 300px;
+  pointer-events: none;
 }
 
 .email-field {
   left: 440px;
   top: 430px;
+  pointer-events: none;
 }
 
 .password-field {
   left: 440px;
   top: 490px;
+  pointer-events: none;
 }
 
 .validate-action {
   left: 568px;
   top: 540px;
+  z-index: 2;
   min-width: 82px;
   padding: 6px 12px;
   color: #000000;
