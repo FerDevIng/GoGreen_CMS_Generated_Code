@@ -7,20 +7,23 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: Inter, Arial, sans-serif;
-  background: #f5f7f4;
+  background: #eeeeee;
 }
 
 .prototype-nav {
-  position: sticky;
-  top: 0;
+  position: fixed;
+  right: 16px;
+  top: 16px;
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
-  padding: 12px 16px;
-  background: #133d2a;
-  border-bottom: 1px solid #0b2419;
+  max-width: 520px;
+  padding: 8px;
+  background: rgba(19, 61, 42, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 4px;
 }
 
 .prototype-nav a {
@@ -58,7 +61,34 @@ body {
   align-items: start;
 }
 
+.login-panel,
+.email-field,
+.password-field,
+.text-0-1-1,
+.text-0-1-2,
+.text-0-1-3,
+.text-0-1-4 {
+  position: absolute;
+}
+
+.login-panel {
+  left: 400px;
+  top: 300px;
+}
+
+.email-field {
+  left: 440px;
+  top: 430px;
+}
+
+.password-field {
+  left: 440px;
+  top: 490px;
+}
+
 .text-0-1-1 {
+  left: 560px;
+  top: 340px;
   width: 81px;
   height: 15px;
   color: #000000;
@@ -70,6 +100,8 @@ body {
 }
 
 .text-0-1-2 {
+  left: 584px;
+  top: 358px;
   width: 32px;
   height: 15px;
   color: #000000;
@@ -81,6 +113,8 @@ body {
 }
 
 .text-0-1-3 {
+  left: 440px;
+  top: 405px;
   width: 31px;
   height: 15px;
   color: #000000;
@@ -92,6 +126,8 @@ body {
 }
 
 .text-0-1-4 {
+  left: 440px;
+  top: 465px;
   width: 56px;
   height: 15px;
   color: #000000;

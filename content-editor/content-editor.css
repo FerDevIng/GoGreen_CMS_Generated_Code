@@ -7,20 +7,23 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: Inter, Arial, sans-serif;
-  background: #f5f7f4;
+  background: #eeeeee;
 }
 
 .prototype-nav {
-  position: sticky;
-  top: 0;
+  position: fixed;
+  right: 16px;
+  top: 16px;
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
-  padding: 12px 16px;
-  background: #133d2a;
-  border-bottom: 1px solid #0b2419;
+  max-width: 520px;
+  padding: 8px;
+  background: rgba(19, 61, 42, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 4px;
 }
 
 .prototype-nav a {
@@ -54,13 +57,25 @@ body {
   align-items: start;
 }
 
+.top-bar,
 .text-0-1-1 {
-  width: 172px;
+  position: absolute;
+}
+
+.top-bar {
+  left: 0;
+  top: 0;
+}
+
+.text-0-1-1 {
+  left: 0;
+  top: 12px;
+  width: 1440px;
   height: 48px;
   color: #000000;
   font-size: 40px;
   font-family: Inter, "Regular";
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   vertical-align: top;
 }
