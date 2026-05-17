@@ -10,36 +10,6 @@ body {
   background: #eeeeee;
 }
 
-.prototype-nav {
-  position: fixed;
-  right: 16px;
-  top: 16px;
-  z-index: 10;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-  max-width: 520px;
-  padding: 8px;
-  background: rgba(19, 61, 42, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 4px;
-}
-
-.prototype-nav a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1;
-  padding: 8px 10px;
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.12);
-}
-
-.prototype-nav a:hover {
-  background: rgba(255, 255, 255, 0.22);
-}
-
 .prototype-screen {
   position: relative;
   min-height: 1024px;
@@ -93,6 +63,16 @@ body {
 .stat-card-views {
   left: 260px;
   top: 633px;
+}
+
+.screen-link {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+}
+
+.screen-link:hover {
+  text-decoration: underline;
 }
 
 .text-0-1-2 {

@@ -10,36 +10,6 @@ body {
   background: #eeeeee;
 }
 
-.prototype-nav {
-  position: fixed;
-  right: 16px;
-  top: 16px;
-  z-index: 10;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-  max-width: 520px;
-  padding: 8px;
-  background: rgba(19, 61, 42, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 4px;
-}
-
-.prototype-nav a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1;
-  padding: 8px 10px;
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.12);
-}
-
-.prototype-nav a:hover {
-  background: rgba(255, 255, 255, 0.22);
-}
-
 .prototype-screen {
   position: relative;
   min-height: 1024px;
@@ -64,6 +34,7 @@ body {
 .login-panel,
 .email-field,
 .password-field,
+.validate-action,
 .text-0-1-1,
 .text-0-1-2,
 .text-0-1-3,
@@ -84,6 +55,25 @@ body {
 .password-field {
   left: 440px;
   top: 490px;
+}
+
+.validate-action {
+  left: 568px;
+  top: 540px;
+  min-width: 82px;
+  padding: 6px 12px;
+  color: #000000;
+  font-size: 12px;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  background: #d9d9d9;
+  border: 1px solid #000000;
+}
+
+.validate-action:hover {
+  outline: 2px solid #133d2a;
 }
 
 .text-0-1-1 {
